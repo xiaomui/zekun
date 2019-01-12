@@ -1,0 +1,9 @@
+kw_quality is to check the enriched kws quality compared to A9.
+get_amazon_asin.py:
+1. read kw list
+2. retrieve amazon first page asins based on kw list
+3. retrieve the attributes that contains kw from csi based on asin
+4. check remote dumper to get non indexable attrs.
+Todo for get_amazon_asin.py:
+1. Check if we need data format kws
+2. Craw data from decoder to calculate the kw importance.
